@@ -8,8 +8,7 @@
     "tsc:w": "npm run clear && tsc -w",
     "lint": "tslint \"src/**/*.ts\" ",
     "clear": "cleandir ./ncharts",
-    "copy": "node ./copy",
-    "publish": "node ./publish"
+    "copy": "node ./copy"
   },
   "repository": {
     "type": "git",
@@ -35,5 +34,6 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "typescript": "^3.6.2"
-  }
+  },
+  "gitHead": "707080eddf5b1e31bcecf68cd63c1b63e85b011d"
 }
