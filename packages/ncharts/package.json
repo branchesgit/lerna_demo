@@ -1,0 +1,39 @@
+{
+  "name": "ncharts",
+  "version": "0.0.1",
+  "description": "echarts business dev wrapper",
+  "main": "index.ts",
+  "scripts": {
+    "tsc": " npm run clear  && tsc && npm run copy",
+    "tsc:w": "npm run clear && tsc -w",
+    "lint": "tslint \"src/**/*.ts\" ",
+    "clear": "cleandir ./ncharts",
+    "copy": "node ./copy",
+    "publish": "node ./publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://wujian@scm.nicezhuanye.com/bitbucket/scm/tools/ncharts.git"
+  },
+  "keywords": [
+    "echarts",
+    "dev"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "hqjlcommon": "^0.1.20"
+  },
+  "devDependencies": {
+    "@types/jquery": "^1.10.34",
+    "@types/node": "^10.12.3",
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "axios": "^0.18.1",
+    "copy": "^0.3.2",
+    "echarts": "^3.7.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "typescript": "^3.6.2"
+  }
+}
