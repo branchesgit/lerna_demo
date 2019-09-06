@@ -1,0 +1,786 @@
+dependencies:
+  echarts: 3.7.0
+  hqjlcommon: 0.1.20
+devDependencies:
+  '@types/jquery': 1.10.35
+  '@types/node': 10.14.17
+  '@types/react': 16.9.2
+  '@types/react-dom': 16.9.0
+  axios: 0.18.1
+  copy: 0.3.2
+  react: 16.9.0
+  react-dom: 16.9.0
+  typescript: 3.6.2
+packages:
+  /@types/jquery/1.10.35:
+    dev: true
+    resolution:
+      integrity: sha1-TlwrHls78Lhj77jF5wCB9S5slRg=
+      tarball: 'http://scm.nicezhuanye.com/@types/jquery/download/@types/jquery-1.10.35.tgz'
+  /@types/node/10.14.17:
+    dev: true
+    resolution:
+      integrity: sha1-uW1N0+QnOCSChIlIBB03VNQP1c4=
+      tarball: 'http://scm.nicezhuanye.com/@types/node/download/@types/node-10.14.17.tgz'
+  /@types/prop-types/15.7.2:
+    dev: true
+    resolution:
+      integrity: sha1-DliuZnc9f9fDcqSTr/dAh47Jzqo=
+      tarball: /@types/prop-types/download/@types/prop-types-15.7.2.tgz
+  /@types/react-dom/16.9.0:
+    dependencies:
+      '@types/react': 16.9.2
+    dev: true
+    resolution:
+      integrity: sha1-um3bAL9d5wCw65HapFIIH/zL/eo=
+      tarball: 'http://scm.nicezhuanye.com/@types/react-dom/download/@types/react-dom-16.9.0.tgz'
+  /@types/react/16.9.2:
+    dependencies:
+      '@types/prop-types': 15.7.2
+      csstype: 2.6.6
+    dev: true
+    resolution:
+      integrity: sha1-bRdlQxoa0Yd5eQE5BnMarjc94mg=
+      tarball: 'http://scm.nicezhuanye.com/@types/react/download/@types/react-16.9.2.tgz'
+  /ansi-green/0.1.1:
+    dependencies:
+      ansi-wrap: 0.1.0
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-il2al55FjVfEDjNYCzc5C44Q0Pc=
+      tarball: /ansi-green/download/ansi-green-0.1.1.tgz
+  /ansi-wrap/0.1.0:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-qCJQ3bABXponyoLoLqYDu/pF768=
+      tarball: /ansi-wrap/download/ansi-wrap-0.1.0.tgz
+  /arr-union/3.1.0:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-45sJrqne+Gao8gbiiK9jkZuuOcQ=
+      tarball: /arr-union/download/arr-union-3.1.0.tgz
+  /async-array-reduce/0.2.1:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-yL4BCitc0A3qlsgRFgNGk9/dgtE=
+      tarball: /async-array-reduce/download/async-array-reduce-0.2.1.tgz
+  /async-each/1.0.3:
+    resolution:
+      integrity: sha1-tyfb+H12UWAvBvTUrDh/R9kbDL8=
+      tarball: /async-each/download/async-each-1.0.3.tgz
+  /axios/0.18.1:
+    dependencies:
+      follow-redirects: 1.5.10
+      is-buffer: 2.0.3
+    dev: true
+    resolution:
+      integrity: sha1-/z8N4ue10YDnV62YAA8Qgbh7zqM=
+      tarball: 'http://scm.nicezhuanye.com/axios/download/axios-0.18.1.tgz'
+  /balanced-match/1.0.0:
+    resolution:
+      integrity: sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
+      tarball: /balanced-match/download/balanced-match-1.0.0.tgz
+  /bluebird/3.5.5:
+    resolution:
+      integrity: sha1-qNCv1zJR7/u9X+OEp31zADwXpx8=
+      tarball: /bluebird/download/bluebird-3.5.5.tgz
+  /brace-expansion/1.1.11:
+    dependencies:
+      balanced-match: 1.0.0
+      concat-map: 0.0.1
+    resolution:
+      integrity: sha1-PH/L9SnYcibz0vUrlm/1Jx60Qd0=
+      tarball: /brace-expansion/download/brace-expansion-1.1.11.tgz
+  /clone-stats/0.0.1:
+    resolution:
+      integrity: sha1-uI+UqCzzi4eR1YBG6kAprYjKmdE=
+      tarball: /clone-stats/download/clone-stats-0.0.1.tgz
+  /clone/1.0.4:
+    engines:
+      node: '>=0.8'
+    resolution:
+      integrity: sha1-2jCcwmPfFZlMaIypAheco8fNfH4=
+      tarball: /clone/download/clone-1.0.4.tgz
+  /concat-map/0.0.1:
+    resolution:
+      integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+      tarball: /concat-map/download/concat-map-0.0.1.tgz
+  /copy/0.3.2:
+    dependencies:
+      async-each: 1.0.3
+      bluebird: 3.5.5
+      extend-shallow: 2.0.1
+      file-contents: 0.3.2
+      glob-parent: 2.0.0
+      graceful-fs: 4.2.2
+      has-glob: 0.1.1
+      is-absolute: 0.2.6
+      lazy-cache: 2.0.2
+      log-ok: 0.1.1
+      matched: 0.4.4
+      mkdirp: 0.5.1
+      resolve-dir: 0.1.1
+      to-file: 0.2.0
+    engines:
+      node: '>=0.10.0'
+    hasBin: true
+    resolution:
+      integrity: sha1-hwuHHQKlmbPG7ye8Wz1MQQImGQk=
+      tarball: /copy/download/copy-0.3.2.tgz
+  /core-util-is/1.0.2:
+    resolution:
+      integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+      tarball: /core-util-is/download/core-util-is-1.0.2.tgz
+  /crypto-js/3.1.9-1:
+    dev: false
+    resolution:
+      integrity: sha1-/aGedh/Ad+Af+/3G6f38WeiAbNg=
+      tarball: /crypto-js/download/crypto-js-3.1.9-1.tgz
+  /csstype/2.6.6:
+    dev: true
+    resolution:
+      integrity: sha1-w0+CJqlLuxDDLMDXFK/flCKR/EE=
+      tarball: /csstype/download/csstype-2.6.6.tgz
+  /debug/3.1.0:
+    dependencies:
+      ms: 2.0.0
+    dev: true
+    resolution:
+      integrity: sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
+      tarball: 'http://scm.nicezhuanye.com/debug/download/debug-3.1.0.tgz'
+  /define-property/0.2.5:
+    dependencies:
+      is-descriptor: 0.1.6
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-w1se+RjsPJkPmlvFe+BKrOxcgRY=
+      tarball: /define-property/download/define-property-0.2.5.tgz
+  /echarts/3.7.0:
+    dependencies:
+      zrender: 3.7.4
+    dev: false
+    resolution:
+      integrity: sha1-edIbKnvhikP2o/GfjA7AfCz0o9w=
+      tarball: 'http://scm.nicezhuanye.com/echarts/download/echarts-3.7.0.tgz'
+  /expand-tilde/1.2.2:
+    dependencies:
+      os-homedir: 1.0.2
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-C4HrqJflo9MdHD0QL48BRB5VlEk=
+      tarball: /expand-tilde/download/expand-tilde-1.2.2.tgz
+  /extend-shallow/2.0.1:
+    dependencies:
+      is-extendable: 0.1.1
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-Ua99YUrZqfYQ6huvu5idaxxWiQ8=
+      tarball: /extend-shallow/download/extend-shallow-2.0.1.tgz
+  /file-contents/0.2.4:
+    dependencies:
+      extend-shallow: 2.0.1
+      file-stat: 0.1.3
+      graceful-fs: 4.2.2
+      is-buffer: 1.1.6
+      is-utf8: 0.2.1
+      lazy-cache: 0.2.7
+      through2: 2.0.5
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-BQb3uO/2KvpFrkXaTfnp1H30U8s=
+      tarball: /file-contents/download/file-contents-0.2.4.tgz
+  /file-contents/0.3.2:
+    dependencies:
+      define-property: 0.2.5
+      extend-shallow: 2.0.1
+      file-stat: 0.2.3
+      fs-exists-sync: 0.1.0
+      graceful-fs: 4.2.2
+      is-buffer: 1.1.6
+      isobject: 2.1.0
+      lazy-cache: 2.0.2
+      strip-bom-buffer: 0.1.1
+      strip-bom-string: 0.1.2
+      through2: 2.0.5
+      vinyl: 1.2.0
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-oJOf7RuM2hWAJm/Gt1OiMvtG3lM=
+      tarball: /file-contents/download/file-contents-0.3.2.tgz
+  /file-stat/0.1.3:
+    dependencies:
+      graceful-fs: 4.2.2
+      lazy-cache: 0.2.7
+      through2: 2.0.5
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-0PGWHX0QcykoEgpuaVVHHCpbVBE=
+      tarball: /file-stat/download/file-stat-0.1.3.tgz
+  /file-stat/0.2.3:
+    dependencies:
+      fs-exists-sync: 0.1.0
+      graceful-fs: 4.2.2
+      lazy-cache: 2.0.2
+      through2: 2.0.5
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-Rpp+kn1pMAeWJM2zgQlAVFbLBqk=
+      tarball: /file-stat/download/file-stat-0.2.3.tgz
+  /follow-redirects/1.5.10:
+    dependencies:
+      debug: 3.1.0
+    dev: true
+    engines:
+      node: '>=4.0'
+    resolution:
+      integrity: sha1-e3qfmuov3/NnhqlP9kPtB/T/Xio=
+      tarball: 'http://scm.nicezhuanye.com/follow-redirects/download/follow-redirects-1.5.10.tgz'
+  /fs-exists-sync/0.1.0:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-mC1ok6+RjnLQjeyehnP/K1qNat0=
+      tarball: /fs-exists-sync/download/fs-exists-sync-0.1.0.tgz
+  /fs.realpath/1.0.0:
+    resolution:
+      integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+      tarball: /fs.realpath/download/fs.realpath-1.0.0.tgz
+  /glob-parent/2.0.0:
+    dependencies:
+      is-glob: 2.0.1
+    resolution:
+      integrity: sha1-gTg9ctsFT8zPUzbaqQLxgvbtuyg=
+      tarball: /glob-parent/download/glob-parent-2.0.0.tgz
+  /glob/7.1.4:
+    dependencies:
+      fs.realpath: 1.0.0
+      inflight: 1.0.6
+      inherits: 2.0.4
+      minimatch: 3.0.4
+      once: 1.4.0
+      path-is-absolute: 1.0.1
+    resolution:
+      integrity: sha1-qmCKL2xXetNX4a5aXCbZqNGWklU=
+      tarball: /glob/download/glob-7.1.4.tgz
+  /global-modules/0.2.3:
+    dependencies:
+      global-prefix: 0.1.5
+      is-windows: 0.2.0
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-6lo77ULG1s6ZWk+KEmm12uIjgo0=
+      tarball: /global-modules/download/global-modules-0.2.3.tgz
+  /global-prefix/0.1.5:
+    dependencies:
+      homedir-polyfill: 1.0.3
+      ini: 1.3.5
+      is-windows: 0.2.0
+      which: 1.3.1
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-jTvGuNo8qBEqFg2NSW/wRiv+948=
+      tarball: /global-prefix/download/global-prefix-0.1.5.tgz
+  /graceful-fs/4.2.2:
+    resolution:
+      integrity: sha1-bwlSYF0BQMHP2xOO0AV3W5LWewI=
+      tarball: /graceful-fs/download/graceful-fs-4.2.2.tgz
+  /has-glob/0.1.1:
+    dependencies:
+      is-glob: 2.0.1
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-omHEwqbGZ+DHe3AKfyl8Oe86pYk=
+      tarball: /has-glob/download/has-glob-0.1.1.tgz
+  /homedir-polyfill/1.0.3:
+    dependencies:
+      parse-passwd: 1.0.0
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-dDKYzvTlrz4ZQWH7rcwhUdOgWOg=
+      tarball: /homedir-polyfill/download/homedir-polyfill-1.0.3.tgz
+  /hqjlcommon/0.1.20:
+    dependencies:
+      copy: 0.3.2
+      crypto-js: 3.1.9-1
+      pako: 1.0.10
+      typescript: 3.6.2
+    dev: false
+    resolution:
+      integrity: sha1-JCvt74XhF9wL+6b7mAhpSh+TEfo=
+  /inflight/1.0.6:
+    dependencies:
+      once: 1.4.0
+      wrappy: 1.0.2
+    resolution:
+      integrity: sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=
+      tarball: /inflight/download/inflight-1.0.6.tgz
+  /inherits/2.0.4:
+    resolution:
+      integrity: sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
+      tarball: /inherits/download/inherits-2.0.4.tgz
+  /ini/1.3.5:
+    resolution:
+      integrity: sha1-7uJfVtscnsYIXgwid4CD9Zar+Sc=
+      tarball: /ini/download/ini-1.3.5.tgz
+  /is-absolute/0.2.6:
+    dependencies:
+      is-relative: 0.2.1
+      is-windows: 0.2.0
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-IN5p89uULvLYe5wto28XIjWxtes=
+      tarball: /is-absolute/download/is-absolute-0.2.6.tgz
+  /is-accessor-descriptor/0.1.6:
+    dependencies:
+      kind-of: 3.2.2
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-qeEss66Nh2cn7u84Q/igiXtcmNY=
+      tarball: /is-accessor-descriptor/download/is-accessor-descriptor-0.1.6.tgz
+  /is-buffer/1.1.6:
+    resolution:
+      integrity: sha1-76ouqdqg16suoTqXsritUf776L4=
+      tarball: /is-buffer/download/is-buffer-1.1.6.tgz
+  /is-buffer/2.0.3:
+    dev: true
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-Ts8/z3ScvR5HJonhCaxmJhol5yU=
+      tarball: 'http://scm.nicezhuanye.com/is-buffer/download/is-buffer-2.0.3.tgz'
+  /is-data-descriptor/0.1.4:
+    dependencies:
+      kind-of: 3.2.2
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-C17mSDiOLIYCgueT8YVv7D8wG1Y=
+      tarball: /is-data-descriptor/download/is-data-descriptor-0.1.4.tgz
+  /is-descriptor/0.1.6:
+    dependencies:
+      is-accessor-descriptor: 0.1.6
+      is-data-descriptor: 0.1.4
+      kind-of: 5.1.0
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-Nm2CQN3kh8pRgjsaufB6EKeCUco=
+      tarball: /is-descriptor/download/is-descriptor-0.1.6.tgz
+  /is-extendable/0.1.1:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-YrEQ4omkcUGOPsNqYX1HLjAd/Ik=
+      tarball: /is-extendable/download/is-extendable-0.1.1.tgz
+  /is-extglob/1.0.0:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-rEaBd8SUNAWgkvyPKXYMb/xiBsA=
+      tarball: /is-extglob/download/is-extglob-1.0.0.tgz
+  /is-glob/2.0.1:
+    dependencies:
+      is-extglob: 1.0.0
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-0Jb5JqPe1WAPP9/ZEZjLCIjC2GM=
+      tarball: /is-glob/download/is-glob-2.0.1.tgz
+  /is-relative/0.2.1:
+    dependencies:
+      is-unc-path: 0.1.2
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-0n9MfVFtF1+2ENuEu+7yPDvJeqU=
+      tarball: /is-relative/download/is-relative-0.2.1.tgz
+  /is-unc-path/0.1.2:
+    dependencies:
+      unc-path-regex: 0.1.2
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-arBTpyVzwQJQ/0FqOBTDUXivObk=
+      tarball: /is-unc-path/download/is-unc-path-0.1.2.tgz
+  /is-utf8/0.2.1:
+    resolution:
+      integrity: sha1-Sw2hRCEE0bM2NA6AeX6GXPOffXI=
+      tarball: /is-utf8/download/is-utf8-0.2.1.tgz
+  /is-valid-glob/0.3.0:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-1LVcafUYhvm2XHDWwmItN+KfSP4=
+      tarball: /is-valid-glob/download/is-valid-glob-0.3.0.tgz
+  /is-windows/0.2.0:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-3hqm1j6indJIc3tp8f+LgALSEIw=
+      tarball: /is-windows/download/is-windows-0.2.0.tgz
+  /isarray/1.0.0:
+    resolution:
+      integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+      tarball: /isarray/download/isarray-1.0.0.tgz
+  /isexe/2.0.0:
+    resolution:
+      integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
+      tarball: /isexe/download/isexe-2.0.0.tgz
+  /isobject/2.1.0:
+    dependencies:
+      isarray: 1.0.0
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-8GVWEJaj8dou9GJy+BXIQNh+DIk=
+      tarball: /isobject/download/isobject-2.1.0.tgz
+  /js-tokens/4.0.0:
+    dev: true
+    resolution:
+      integrity: sha1-GSA/tZmR35jjoocFDUZHzerzJJk=
+      tarball: /js-tokens/download/js-tokens-4.0.0.tgz
+  /kind-of/3.2.2:
+    dependencies:
+      is-buffer: 1.1.6
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=
+      tarball: /kind-of/download/kind-of-3.2.2.tgz
+  /kind-of/5.1.0:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-cpyR4thXt6QZofmqZWhcTDP1hF0=
+      tarball: /kind-of/download/kind-of-5.1.0.tgz
+  /lazy-cache/0.2.7:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-f+3fLctu23fRHvHRF6tf/fCrG2U=
+      tarball: /lazy-cache/download/lazy-cache-0.2.7.tgz
+  /lazy-cache/2.0.2:
+    dependencies:
+      set-getter: 0.1.0
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-uRkKT5EzVGlIQIWfio9whNiCImQ=
+      tarball: /lazy-cache/download/lazy-cache-2.0.2.tgz
+  /log-ok/0.1.1:
+    dependencies:
+      ansi-green: 0.1.1
+      success-symbol: 0.1.0
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-vqPdNqzQuKckDXhza1uXxlREozQ=
+      tarball: /log-ok/download/log-ok-0.1.1.tgz
+  /loose-envify/1.4.0:
+    dependencies:
+      js-tokens: 4.0.0
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
+      tarball: 'http://scm.nicezhuanye.com/loose-envify/download/loose-envify-1.4.0.tgz'
+  /matched/0.4.4:
+    dependencies:
+      arr-union: 3.1.0
+      async-array-reduce: 0.2.1
+      extend-shallow: 2.0.1
+      fs-exists-sync: 0.1.0
+      glob: 7.1.4
+      has-glob: 0.1.1
+      is-valid-glob: 0.3.0
+      lazy-cache: 2.0.2
+      resolve-dir: 0.1.1
+    engines:
+      node: '>= 0.12.0'
+    resolution:
+      integrity: sha1-Vte36xgDPwz5vFLrIJD6x9weifo=
+      tarball: /matched/download/matched-0.4.4.tgz
+  /minimatch/3.0.4:
+    dependencies:
+      brace-expansion: 1.1.11
+    resolution:
+      integrity: sha1-UWbihkV/AzBgZL5Ul+jbsMPTIIM=
+      tarball: /minimatch/download/minimatch-3.0.4.tgz
+  /minimist/0.0.8:
+    resolution:
+      integrity: sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
+      tarball: /minimist/download/minimist-0.0.8.tgz
+  /mkdirp/0.5.1:
+    dependencies:
+      minimist: 0.0.8
+    hasBin: true
+    resolution:
+      integrity: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
+      tarball: /mkdirp/download/mkdirp-0.5.1.tgz
+  /ms/2.0.0:
+    dev: true
+    resolution:
+      integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+      tarball: 'http://scm.nicezhuanye.com/ms/download/ms-2.0.0.tgz'
+  /object-assign/4.1.1:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+      tarball: 'http://scm.nicezhuanye.com/object-assign/download/object-assign-4.1.1.tgz'
+  /once/1.4.0:
+    dependencies:
+      wrappy: 1.0.2
+    resolution:
+      integrity: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
+      tarball: /once/download/once-1.4.0.tgz
+  /os-homedir/1.0.2:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-/7xJiDNuDoM94MFox+8VISGqf7M=
+      tarball: /os-homedir/download/os-homedir-1.0.2.tgz
+  /pako/1.0.10:
+    dev: false
+    resolution:
+      integrity: sha1-Qyi621CGpCaqkPVBl31JVdpclzI=
+      tarball: /pako/download/pako-1.0.10.tgz
+  /parse-passwd/1.0.0:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-bVuTSkVpk7I9N/QKOC1vFmao5cY=
+      tarball: /parse-passwd/download/parse-passwd-1.0.0.tgz
+  /path-is-absolute/1.0.1:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
+      tarball: /path-is-absolute/download/path-is-absolute-1.0.1.tgz
+  /process-nextick-args/2.0.1:
+    resolution:
+      integrity: sha1-eCDZsWEgzFXKmud5JoCufbptf+I=
+      tarball: /process-nextick-args/download/process-nextick-args-2.0.1.tgz
+  /prop-types/15.7.2:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.9.0
+    dev: true
+    resolution:
+      integrity: sha1-UsQedbjIfnK52TYOAga5ncv/psU=
+      tarball: 'http://scm.nicezhuanye.com/prop-types/download/prop-types-15.7.2.tgz'
+  /react-dom/16.9.0:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      prop-types: 15.7.2
+      scheduler: 0.15.0
+    dev: true
+    peerDependencies:
+      react: ^16.0.0
+    resolution:
+      integrity: sha1-XmVSel4m8irjcBExvMyu6fsNOWI=
+      tarball: 'http://scm.nicezhuanye.com/react-dom/download/react-dom-16.9.0.tgz'
+  /react-is/16.9.0:
+    dev: true
+    resolution:
+      integrity: sha1-IcqVYTmarQ/xp3AcAWg+jKmB7cs=
+      tarball: /react-is/download/react-is-16.9.0.tgz
+  /react/16.9.0:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      prop-types: 15.7.2
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-QLovmvE7waONddvy9DWaUYXE96o=
+      tarball: 'http://scm.nicezhuanye.com/react/download/react-16.9.0.tgz'
+  /readable-stream/2.3.6:
+    dependencies:
+      core-util-is: 1.0.2
+      inherits: 2.0.4
+      isarray: 1.0.0
+      process-nextick-args: 2.0.1
+      safe-buffer: 5.1.2
+      string_decoder: 1.1.1
+      util-deprecate: 1.0.2
+    resolution:
+      integrity: sha1-sRwn2IuP8fvgcGQ8+UsMea4bCq8=
+      tarball: /readable-stream/download/readable-stream-2.3.6.tgz
+  /replace-ext/0.0.1:
+    engines:
+      node: '>= 0.4'
+    resolution:
+      integrity: sha1-KbvZIHinOfC8zitO5B6DeVNSKSQ=
+      tarball: /replace-ext/download/replace-ext-0.0.1.tgz
+  /resolve-dir/0.1.1:
+    dependencies:
+      expand-tilde: 1.2.2
+      global-modules: 0.2.3
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-shklmlYC+sXFxJatiUpujMQwJh4=
+      tarball: /resolve-dir/download/resolve-dir-0.1.1.tgz
+  /safe-buffer/5.1.2:
+    resolution:
+      integrity: sha1-mR7GnSluAxN0fVm9/St0XDX4go0=
+      tarball: /safe-buffer/download/safe-buffer-5.1.2.tgz
+  /scheduler/0.15.0:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: true
+    resolution:
+      integrity: sha1-a/z4D/hQsoD+1K7sxlE7wLTxf44=
+      tarball: 'http://scm.nicezhuanye.com/scheduler/download/scheduler-0.15.0.tgz'
+  /set-getter/0.1.0:
+    dependencies:
+      to-object-path: 0.3.0
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-12nBgsnVpR9AkUXy+6guXoboA3Y=
+      tarball: /set-getter/download/set-getter-0.1.0.tgz
+  /string_decoder/1.1.1:
+    dependencies:
+      safe-buffer: 5.1.2
+    resolution:
+      integrity: sha1-nPFhG6YmhdcDCunkujQUnDrwP8g=
+      tarball: /string_decoder/download/string_decoder-1.1.1.tgz
+  /strip-bom-buffer/0.1.1:
+    dependencies:
+      is-buffer: 1.1.6
+      is-utf8: 0.2.1
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-yj3cSRnBP5/d8wsd/xAKmDUki00=
+      tarball: /strip-bom-buffer/download/strip-bom-buffer-0.1.1.tgz
+  /strip-bom-string/0.1.2:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-nG5yCjE7qYNliVGEBcz7iKX0G5w=
+      tarball: /strip-bom-string/download/strip-bom-string-0.1.2.tgz
+  /success-symbol/0.1.0:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-JAIuSG878c3KCUKDt2nEctO3KJc=
+      tarball: /success-symbol/download/success-symbol-0.1.0.tgz
+  /through2/2.0.5:
+    dependencies:
+      readable-stream: 2.3.6
+      xtend: 4.0.2
+    resolution:
+      integrity: sha1-AcHjnrMdB8t9A6lqcIIyYLIxMs0=
+      tarball: /through2/download/through2-2.0.5.tgz
+  /to-file/0.2.0:
+    dependencies:
+      define-property: 0.2.5
+      extend-shallow: 2.0.1
+      file-contents: 0.2.4
+      glob-parent: 2.0.0
+      is-valid-glob: 0.3.0
+      isobject: 2.1.0
+      lazy-cache: 2.0.2
+      vinyl: 1.2.0
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-I2xsCIBl5XDe+9Fc9LTlZb5G6pM=
+      tarball: /to-file/download/to-file-0.2.0.tgz
+  /to-object-path/0.3.0:
+    dependencies:
+      kind-of: 3.2.2
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-KXWIt7Dn4KwI4E5nL4XB9JmeF68=
+      tarball: /to-object-path/download/to-object-path-0.3.0.tgz
+  /typescript/3.6.2:
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha1-EFsPGTQRnd5UOsjrca86kQCe/lQ=
+      tarball: 'http://scm.nicezhuanye.com/typescript/download/typescript-3.6.2.tgz'
+  /unc-path-regex/0.1.2:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-5z3T17DXxe2G+6xrCufYxqadUPo=
+      tarball: /unc-path-regex/download/unc-path-regex-0.1.2.tgz
+  /util-deprecate/1.0.2:
+    resolution:
+      integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+      tarball: /util-deprecate/download/util-deprecate-1.0.2.tgz
+  /vinyl/1.2.0:
+    dependencies:
+      clone: 1.0.4
+      clone-stats: 0.0.1
+      replace-ext: 0.0.1
+    engines:
+      node: '>= 0.9'
+    resolution:
+      integrity: sha1-XIgDbPVl5d8FVYv8kR+GVt8hiIQ=
+      tarball: /vinyl/download/vinyl-1.2.0.tgz
+  /which/1.3.1:
+    dependencies:
+      isexe: 2.0.0
+    hasBin: true
+    resolution:
+      integrity: sha1-pFBD1U9YBTFtqNYvn1CRjT2nCwo=
+      tarball: /which/download/which-1.3.1.tgz
+  /wrappy/1.0.2:
+    resolution:
+      integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+      tarball: /wrappy/download/wrappy-1.0.2.tgz
+  /xtend/4.0.2:
+    engines:
+      node: '>=0.4'
+    resolution:
+      integrity: sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q=
+      tarball: /xtend/download/xtend-4.0.2.tgz
+  /zrender/3.7.4:
+    dev: false
+    resolution:
+      integrity: sha1-+EfVOUhIHvbUKQbR6prux6y+/fI=
+      tarball: /zrender/download/zrender-3.7.4.tgz
+registry: 'http://scm.nicezhuanye.com/artifactory/api/npm/npm_virtual/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@types/jquery': ^1.10.34
+  '@types/node': ^10.12.3
+  '@types/react': ^16.7.13
+  '@types/react-dom': ^16.0.11
+  axios: ^0.18.1
+  copy: ^0.3.2
+  echarts: ^3.7.0
+  hqjlcommon: ^0.1.20
+  react: ^16.6.3
+  react-dom: ^16.6.3
+  typescript: ^3.6.2

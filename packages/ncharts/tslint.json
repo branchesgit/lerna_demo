@@ -1,0 +1,26 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-react"
+  ],
+  "jsRules": {},
+  "rules": {
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "member-ordering": false,
+    "no-empty-interface": false,
+    "ordered-imports": false,
+    "prefer-for-of": false,
+    "trailing-comma": false,
+    "object-literal-sort-keys": false,
+    "no-reference": false,
+    "member-access": [true, "no-public"],
+    "only-arrow-functions": false,
+    "jsx-no-multiline-js": false,
+    "comment-format": [
+      false,
+      "check-space"
+    ]
+  },
+  "rulesDirectory": []
+}
